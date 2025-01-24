@@ -99,6 +99,7 @@ This project is a comprehensive e-commerce web application built using React.js 
     *   The application will be running at `http://localhost:3000`. You can access it using your web browser.
 
 ## Comprehensive Project Architecture
+```bash
 e-commerce-app/
 ├── node_modules/ # Contains project dependencies.
 ├── public/ # Contains static assets like index.html, favicon etc.
@@ -131,6 +132,7 @@ e-commerce-app/
 ├── package-lock.json # Keeps track of specific dependency versions.
 ├── tailwind.config.js # Stores tailwind configuration.
 └── ... # Other configuration files.
+```
 
 *   **`src/components`**: This directory contains all the reusable React components. Components here are designed to be modular and are used across multiple pages.
     *   **`ProductCard.jsx`**:  Responsible for displaying a single product card, including its image, title, and price. It also links to the full product page.
